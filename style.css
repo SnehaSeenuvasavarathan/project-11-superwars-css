@@ -1,4 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+  
+}
+
+section{
+  width:100%;
+  margin-top:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+
+#r1 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-column-gap: 20px;
+  
+  
+}
+#r1 span{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.font{
+  font-size: 70px;
+}
+
 .footer{
   margin-left : 80px;
   font-size : 18px;
+  margin-top: 330px;
+}
+
+.score{
+  border: 3px solid rgb(196, 190, 190);
 }
